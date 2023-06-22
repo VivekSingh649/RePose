@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- BOOTSTRAP ICON LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CUSTOM CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- RESPONSIVE CSS  -->
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!-- OWL CRAOUSEL CSS  -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <title>Categories</title>
+</head>
+
+<body>
+    <!-- ===================HEADER SECTION START===================  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo/Repose-logov1 1.png" class="img-fluid" alt=""
+                    width="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- ===========LIST ITEM STAR =========== -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Categories.html">Mattress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pillows</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Furniture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sleepy Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Store near you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navButton" id="customize" style="cursor: pointer;">customize</a>
+                    </li>
+                </ul>
+                <!-- ================ LIST ITEM END =============== -->
+                <div class="Search-box-left">
+                    <form class="Search-box" role="search">
+                        <!-- <input class="form-control me-2 text-ittlic" type="search" placeholder="Search products"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button> -->
+                        <input type="search" name="search" id="search" class="search-input"
+                            placeholder="search products">
+                        <button class="search-button"><img src="Icons/blue-searchloupe 1.png" alt=""></i></button>
+                    </form>
+                </div>
+                <div class="Product-icon-box">
+                    <a href="#"><img src="Icons/image 108.png" alt=""></a>
+                    <a href="#"><img src="Icons/image 105.png" alt=""></a>
+                    <a href="#"><img src="Icons/cart 1.png" alt=""></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ===================HEADER SECTION EED===================  -->
+
+    <!-- ========breadcrumbs start============= -->
+    <div class="container breadcrumbs">
+        <div class="row">
+            <div class="breadcrumbs-wapper pt-2">
+                <p><a href="#">mattress</a><i class="bi bi-arrow-right-short"></i></p>
+                <p><a href="#">repose</a><i class="bi bi-arrow-right-short"></i></p>
+                <p><a href="#">Single</a><i class="bi bi-arrow-right-short"></i></p>
+                <p><a href="#"> Spine Pro – Rebonded Foam With PU Foam</a><i class="bi bi-arrow-right-short"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- ========breadcrumbs end============= -->
+
+    <!-- ========Single product start============= -->
+    <section>
+        <div class="container">
+            <div class="row ProductList">
+                <div class="col-12 col-md-6 pe-5 product-sidebar">
+                    <div class="product ForDestop">
+                        <img class="img-fluid w-100 product-image" src="Product/image 85.png" alt=""
+                            onclick="showImage(this)">
+                        </p>
+                    </div>
+                    <div class="variation-image">
+                        <div class="product-gallery col-12 col-md-6">
+                            <img src="Product/image 125.png" alt="" class="img-fluid" onclick="showImage(this)">
+                        </div>
+                        <div class="product-gallery col-12 col-md-6">
+                            <img src="Product/image 125.png" alt="" class="img-fluid" onclick="showImage(this)">
+                        </div>
+                        <div class="product-gallery col-12 col-md-6">
+                            <img src="Product/image 125.png" alt="" class="img-fluid" onclick="showImage(this)">
+                        </div>
+                        <div class="product-gallery col-12 col-md-6">
+                            <img src="Product/image 125.png" alt="" class="img-fluid" onclick="showImage(this)">
+                        </div>
+                        <div class="product-gallery col-12 col-md-6">
+                            <video src="Videos/Matters.mp4" class="img-fluid" onclick="showImage(this)" controls
+                                muted></video>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" row p-5 BG-light-yellow mt-5">
+                        <div class="Mob-p-0">
+                            <h1 class="text-center fw-600">About this Mattress</h1>
+                            <div class="about-product">
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                                <div class="about-product-discription col-12 col-md-6">Lorem ipsum dolor sit
+                                    amet ipsum
+                                    dolor sit amet</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="about-product">
+                            <div class="col Support-box">FREE
+                                Delivery</div>
+                            <div class="col Support-box">0%
+                                Interest EMI</div>
+                            <div class="col Support-box">Up to 12 Yrs Warranty</div>
+                            <div class="col Support-box">5%
+                                Cash Back</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="product HoverRemove">
+                        <div class="product MobileProduct d-none SingleProduct">
+                            <a href=""><img class="img-fluid w-100 product-image" src="Product/image 85.png" alt=""></a>
+                            </p>
+                        </div>
+                        <div class="product-details gap-3">
+                            <p class="Single-product-tittle fs-2">Spine Pro – Rebonded Foam With PU Foam</p>
+                            <p class="reviw-and-rating">
+                                <span class="single-star">4.5 <i class="single-star-icon bi bi-star-fill"></i></span>
+                                <span>150 </span><span>rating </span><span>150 </span><span>Reviews </span>
+                            </p>
+                            <p class="product-dicription">Sleep away your back problems. Not all orthopaedic
+                                mattresses
+                                are super-expensive. Like Repose Spine-Pro Rebonded Foam with PU Foam. It’s
+                                affordable
+                                and offers excellent spine-care.
+                            </p>
+                            <ul class="product-list">
+                                <li>Knitted Fabric, Rebonded Foam</li>
+                                <li> Up to 5 Yrs Warranty</li>
+                                <li> Replaces backache & spondylitis</li>
+                            </ul>
+                            <p class="product-price"><span>Starts </span>@ ₹8,372.00</p>
+                            <p class="price-offer"><span>₹12,302.00</span>(10% Off)</p>
+                            <p class="product-price-sm">
+                                (OR) ₹500/m <span>No Cost EMI </span>
+                            </p>
+                            <p class="support ">
+                                Free Delivery | Upto 5 Yrs Warranty
+                            </p>
+                            <p class="support ">
+                                SIZES AVAILABLE
+                            </p>
+                            <div class="available-size">
+                                <a href="#" class="singlesize">Single</a>
+                                <a href="#" class="singlesize">DOUBLE</a>
+                                <a href="#" class="singlesize">QUEEN</a>
+                                <a href="#" class="singlesize">KING</a>
+                            </div>
+                            <p class="dosmensions">
+                                DIMENSIONS <br>
+                                <select name="select" id="" class="fillter FullSize">
+                                    <option value="" disabled selected>72 X 30</option>
+                                    <option value="72 X 30">72 X 30</option>
+                                    <option value="72 X 30">72 X 30</option>
+                                </select>
+                            </p>
+                            <div class="available-size">
+                                <p class="w-100">HEIGHT</p>
+                                <a href="#" class="singlesize">5 INCHES</a>
+                                <a href="#" class="singlesize">6 INCHES</a>
+                            </div>
+                            <p class="QUANTITt">QUANTITY <br>
+                                <select name="select" id="" class="fillter FullSize">
+                                    <option value="" disabled selected>72 X 30</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+                            </p>
+                            <p> <label for="pincode">CHECK DELIVERY SPEED
+                                    <input type="number" name="pincode" id="pincode" class="pinCode FullSize"
+                                        placeholder="Enter Pincode">
+                                </label>
+                            </p>
+                            <div class="button-wapper">
+                                <div class="col-12 col-md-6 pe-3">
+                                    <button class="button buy-now"><a href="#">buy now</a></button>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <button class="button add-to-cart" id="addContainerBtn">add to
+                                        cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row BG-light-red">
+                        <div class="combo-deal-wapper p-5" style="padding-bottom: 7rem !important;">
+                            <div class="combo-tittle text-center pb-4">
+                                <h2>Combo Deal!</h2>
+                                <p>Now Save Additional 15%</p>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="combo-product">
+                                    <div> <a href="#"><i class="bi bi-check2-square"></i></a> </div>
+                                    <div class="product-image"><img src="Product/image 112.png" alt=""
+                                            class="img-fluid"></div>
+                                    <div>
+                                        <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam Mattress
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class=" add-more text-center"><a href="#" style="color:black"><i
+                                            class="bi bi-plus-circle-fill fs-1"></i></a></div>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="combo-product">
+                                    <div> <a href="#"><i class="bi bi-check2-square"></i></a> </div>
+                                    <div class="product-image"><img src="Product/image 112.png" alt=""
+                                            class="img-fluid"></div>
+                                    <div>
+                                        <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam Mattress
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class=" add-more text-center"><a href="#" style="color:black"><i
+                                            class="bi bi-plus-circle-fill fs-1"></i></a></div>
+                            </div>
+                            <div class="col-12 ">
+                                <div class="combo-product">
+                                    <div> <a href="#"><i class="bi bi-check2-square"></i></a> </div>
+                                    <div class="product-image"><img src="Product/image 112.png" alt=""
+                                            class="img-fluid"></div>
+                                    <div>
+                                        <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam Mattress
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class=" add-more text-center"><a href="#" style="color:black"><i
+                                            class="bi bi-plus-circle-fill fs-1"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==============Add to cart Box START=================== -->
+    <section class="BG-overlay" id="imagePopWapper">
+        <div class="container">
+            <div class="row">
+                <div class="product_wapper">
+
+                    <div class="col-12 col-md-8 product_pop_image" id="productImageWapper">
+                        <video src="Videos/Matters.mp4" controls muted autoplay id="mainVideo"
+                            class="product_pop_video"></video>
+                        <img id="mainImage" src="" alt="" class="img-fluid zoomable-image">
+                    </div>
+
+                    <div class="col-12 col-md-4 ps-5">
+                        <div class="pop-variation-image">
+                            <p class="Single-product-tittle fs-1">Spine Pro – Rebonded Foam With PU Foam</p>
+                            <div class="">
+                                <img src="Product/image 125.png" alt="" class="img-fluid"
+                                    onclick="updateMainImage(this.src)">
+                            </div>
+                            <div class="">
+                                <img src="Product/double-bed-with-white-pillows.jpg" alt="" class="img-fluid"
+                                    onclick="updateMainImage(this.src)">
+                            </div>
+                            <div class="">
+                                <img src="Product/image 112.png" alt="" class="img-fluid"
+                                    onclick="updateMainImage(this.src)">
+                            </div>
+                            <div class="">
+                                <img src="Product/image 125.png" alt="" class="img-fluid"
+                                    onclick="updateMainImage(this.src)">
+                            </div>
+                            <div class="">
+                                <video src="Videos/Matters.mp4" class="img-fluid" id="popVideo"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="CrossImage" onclick="closeModal()"><i class="text-dark bi bi-x-lg"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============Add to cart Box End=================== -->
+
+    <section>
+        <div class="container">
+            <div class="row p-0">
+                <div class="main-heading">
+                    <h2>Compare Mattress</h2>
+                </div>
+
+                <div class="row compare-product p-0">
+                    <div class="col-10 col-md-3">
+                        <div class="product HoverRemove">
+                            <a href="#"><img src="Product/image 125.png" alt="" class="img-fluid w-100"></a>
+                            <div class="product-tittle">
+                                Spine Pro – Rebonded Foam With PU Foam
+                            </div>
+                            <p class="compare-reson">WHY THIS MATTRESS?</p>
+                            <p class="paragraph">Sleep away your back problems. It’s affordable and offers excellent
+                                spine-care.</p>
+                            <p class="compare-reson">PRODUCT PRICE</p>
+                            <p class="product-price"><span>Now </span>₹8,372.00</p>
+                            <p class="price-offer"><span>₹9,302.00</span>(10% Off)</p>
+                            <p class="compare-reson">SIZE OPTIONS</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">COVER</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">SUITED FOR</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <div class="button-wapper pt-5">
+                                <button class="button add-to-cart"><a href="#">VIEW DETAILS</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <div class="product HoverRemove">
+                            <a href="#"><img src="Product/image 125.png" alt="" class="img-fluid w-100"></a>
+                            <div class="product-tittle">
+                                Spine Pro – Rebonded Foam With PU Foam
+                            </div>
+                            <p class="compare-reson">WHY THIS MATTRESS?</p>
+                            <p class="paragraph">Sleep away your back problems. It’s affordable and offers excellent
+                                spine-care.</p>
+                            <p class="compare-reson">PRODUCT PRICE</p>
+                            <p class="product-price"><span>Now </span>₹8,372.00</p>
+                            <p class="price-offer"><span>₹9,302.00</span>(10% Off)</p>
+                            <p class="compare-reson">SIZE OPTIONS</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">COVER</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">SUITED FOR</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <div class="button-wapper pt-5">
+                                <button class="button add-to-cart"><a href="#">VIEW DETAILS</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <div class="product HoverRemove">
+                            <a href="#"><img src="Product/image 125.png" alt="" class="img-fluid w-100"></a>
+                            <div class="product-tittle">
+                                Spine Pro – Rebonded Foam With PU Foam
+                            </div>
+                            <p class="compare-reson">WHY THIS MATTRESS?</p>
+                            <p class="paragraph">Sleep away your back problems. It’s affordable and offers excellent
+                                spine-care.</p>
+                            <p class="compare-reson">PRODUCT PRICE</p>
+                            <p class="product-price"><span>Now </span>₹8,372.00</p>
+                            <p class="price-offer"><span>₹9,302.00</span>(10% Off)</p>
+                            <p class="compare-reson">SIZE OPTIONS</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">COVER</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <p class="compare-reson">SUITED FOR</p>
+                            <p class="paragraph">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in
+                                laying out print, graphic or web designs.</p>
+                            <div class="button-wapper pt-5">
+                                <button class="button add-to-cart"><a href="#">VIEW DETAILS</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 add-product-wapper DesktopImage">
+                        <div class="add-product">
+                            <a href="#">ADD MATTRESS TO COMPARE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-3 add-product-wapper mt-3 d-none MobileProduct">
+                    <div class="add-product">
+                        <a href="#">ADD MATTRESS TO COMPARE</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ========Single product end============= -->
+
+    <!-- ==============Add to cart Box START=================== -->
+    <section class="BG-overlay" id="BGoverlay">
+        <div class="container">
+            <div class="row">
+                <div class="Add-to-cart-wapper">
+                    <div class="select-product">
+                        <h2 class="product-tittle-red">
+                            1 item added to cart
+                        </h2>
+                        <div class="row-Product flex-column-mobile">
+                            <div class="product-image">
+                                <img src="Product/image 85.png" alt="" class="img-fluid w-75">
+                            </div>
+                            <div class="product-inform">
+                                <p class="product-tittle">
+                                    Spine Pro – Rebonded Foam With PU Foam
+                                </p>
+                                <div><span class="size">Single |</span><span class="dimnetions"> 72X30 |</span> <span
+                                        class="inches">5 inches</span></div>
+                                <div>
+                                    <p class="product-price">₹8,372.00</p>
+                                    <p class="price-offer"><span>₹9,302.00</p></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-wapper Mt-10">
+                            <div class="col-12">
+                                <button class="button add-to-cart"><a href="checkout.html">PROCEED TO CART</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Cross"><i class="text-dark bi bi-x-lg"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==============Add to cart Box End=================== -->
+
+    <!-- =============REVIEW Products SECTION START ==================== -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="main-heading">
+                    <h2>Review</h2>
+                </div>
+
+                <div class="row">
+                    <div class="product-review-wapper">
+                        <div class="rating-box-wapper">
+                            <div class="total-start-rating">
+                                <div class="rating">5.0</div>
+                                <div class="stars">
+                                    <i class="colorStart bi bi-star-fill"></i>
+                                    <i class="colorStart bi bi-star-fill"></i>
+                                    <i class="colorStart bi bi-star-fill"></i>
+                                    <i class="colorStart bi bi-star-fill"></i>
+                                    <i class="colorStart bi bi-star-fill"></i>
+                                </div>
+                                <p class="total-review">
+                                    (150 review)
+                                </p>
+                            </div>
+                            <ul class="rating-bar-wapper">
+                                <li>
+                                    <p>5
+                                    <p><i class="colorStart bi bi-star-fill"></i></p>
+                                    </p>
+                                    <p class="rating-bar FiveStar" id="FiveStar"></p>
+                                    <p>150</p>
+                                </li>
+                                <li>
+                                    <p>4
+                                    <p><i class="colorStart bi bi-star-fill"></i></p>
+                                    </p>
+                                    <p class="rating-bar fourthSecond" id="fourthSecond"></p>
+                                    <p>80</p>
+                                </li>
+                                <li>
+                                    <p>3
+                                    <p><i class="colorStart bi bi-star-fill"></i></p>
+                                    </p>
+                                    <p class="rating-bar ThirdStar" id="ThirdStar"></p>
+                                    <p>50</p>
+                                </li>
+                                <li>
+                                    <p>2
+                                    <p><i class="colorStart bi bi-star-fill"></i></p>
+                                    </p>
+                                    <p class="rating-bar SecondStar" id="SecondStar"></p>
+                                    <p>20</p>
+                                </li>
+                                <li>
+                                    <p>1
+                                    <p><i class="colorStart bi bi-star-fill"></i></p>
+                                    </p>
+                                    <p class="rating-bar OneStar" id="OneStar"></p>
+                                    <p>5</p>
+                                </li>
+                            </ul>
+                            <button class="Write-review" id="WriteReviewButton">
+                                <p><i class="bi bi-pencil-fill main-color"></i></p>
+                                <p class="fs-3">Write a review</p>
+                            </button>
+                        </div>
+                        <div class="user-review-wapper">
+                            <div class="user-profile">
+                                <img src="Logo/download.jpg" alt="">
+                            </div>
+                            <div class="user-profile-details">
+                                <div class="user-name">
+                                    Tony stark
+                                    <span>
+                                        <div class="stars">
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                                <p class="user-heading">
+                                    "Outstanding review desgin"
+                                </p>
+
+                                <p class="user-feedback">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo,
+                                    consequuntur perferendis delectus quae aspernatur. Quis, asperiores reprehenderit
+                                    provident itaque esse laborum incidunt quia autem, fuga quos repudiandae architecto
+                                    delectus molestias totam, eveniet obcaecati. Hic officia ducimus voluptates,
+                                    sapiente delectus rerum repellendus. Facilis eius hic, numquam unde asperiores vel
+                                    perspiciatis.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="user-review-wapper">
+                            <div class="user-profile">
+                                <img src="Logo/download.jpg" alt="">
+                            </div>
+                            <div class="user-profile-details">
+                                <div class="user-name">
+                                    Tony stark
+                                    <span>
+                                        <div class="stars">
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                                <p class="user-heading">
+                                    "Outstanding review desgin"
+                                </p>
+
+                                <p class="user-feedback">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo,
+                                    consequuntur perferendis delectus quae aspernatur. Quis, asperiores reprehenderit
+                                    provident itaque esse laborum incidunt quia autem, fuga quos repudiandae architecto
+                                    delectus molestias totam, eveniet obcaecati. Hic officia ducimus voluptates,
+                                    sapiente delectus rerum repellendus. Facilis eius hic, numquam unde asperiores vel
+                                    perspiciatis.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="user-review-wapper">
+                            <div class="user-profile">
+                                <img src="Logo/download.jpg" alt="">
+                            </div>
+                            <div class="user-profile-details">
+                                <div class="user-name">
+                                    Tony stark
+                                    <span>
+                                        <div class="stars">
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                            <i class="colorStart bi bi-star-fill"></i>
+                                        </div>
+                                    </span>
+                                </div>
+                                <p class="user-heading">
+                                    "Outstanding review desgin"
+                                </p>
+
+                                <p class="user-feedback">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo,
+                                    consequuntur perferendis delectus quae aspernatur. Quis, asperiores reprehenderit
+                                    provident itaque esse laborum incidunt quia autem, fuga quos repudiandae architecto
+                                    delectus molestias totam, eveniet obcaecati. Hic officia ducimus voluptates,
+                                    sapiente delectus rerum repellendus. Facilis eius hic, numquam unde asperiores vel
+                                    perspiciatis.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="BG-overlay" id="WriteReviewPoP">
+        <div class="container h-100">
+            <div class="row  h-100 align-items-center justify-content-center">
+                <div class="WriteReview">
+                    <h3 class="fs-1">Write a reivew for this product</h3>
+                    <div class="stars d-flex flex-row-reverse float-start gap-3 mb-4">
+                        <i class="FeedBackIcon bi bi-star-fill" data-rating="1"></i>
+                        <i class="FeedBackIcon bi bi-star-fill" data-rating="2"></i>
+                        <i class="FeedBackIcon bi bi-star-fill" data-rating="3"></i>
+                        <i class="FeedBackIcon bi bi-star-fill" data-rating="4"></i>
+                        <i class="FeedBackIcon bi bi-star-fill" data-rating="5"></i>
+
+                        <script>
+                            // Get the icon element
+                            var icon = document.querySelector(".FeedBackIcon");
+
+                            // Add a click event listener to the icon
+                            icon.addEventListener("click", function () {
+                                // Get the current value of the "data-clicked" attribute
+                                var clicked = icon.getAttribute("data-clicked");
+
+                                // Toggle the value of the "data-clicked" attribute to "true"
+                                if (clicked === "true") {
+                                    icon.setAttribute("data-clicked", "false");
+                                } else {
+                                    icon.setAttribute("data-clicked", "true");
+                                }
+                            });
+                        </script>
+                    </div>
+
+                    <form action="post" class="feedback-wapper-input">
+                        <div class="feedback-wapper">
+                            <p class="reviewLabel">Name</p>
+                            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="feedback-wapper">
+                            <p class="reviewLabel">Tittle</p>
+                            <input type="text" name="heading" id="name" placeholder="Review tittle" required>
+                        </div>
+                        <div class="feedback-wapper">
+                            <p class="reviewLabel">Review</p>
+                            <textarea name="message" id="message" cols="30" rows="10"
+                                placeholder="Share your own expepirence on this product"></textarea>
+                        </div>
+                        <div class=" col-md-8 col-12 button-wapper">
+                            <button class="button add-to-cart w-50" type="submit">Submit</button>
+                        </div>
+                    </form>
+
+                    <div id="CrossPoP"><i class="bi bi-x-lg"></i></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =============REVIEW Products SECTION END ==================== -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="main-heading">
+                    <h2>Testimonies</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="review-wapper">
+                    <div class="review-inner">
+                        <div class="review">
+                            <h1>Good One</h1>
+                            <p class="paragraph">
+                                “I'm so glad That I've got what I expect... It's been a month long that i use the
+                                products but i find very good.. I hope i can use the mattress for more than 10 years.
+                                Thank you for deliver in time... Also i recommend my friend to use this products....”
+                            <h3>Reisangmi hungshok</h3>
+                            </p>
+                            <div class="verified">
+                                Amazon Verified Purchase, Feb 2023
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h1>Good One</h1>
+                            <p class="paragraph">
+                                “I'm so glad That I've got what I expect... It's been a month long that i use the
+                                products but i find very good.. I hope i can use the mattress for more than 10 years.
+                                Thank you for deliver in time... Also i recommend my friend to use this products....”
+                            <h3>Reisangmi hungshok</h3>
+                            </p>
+                            <div class="verified">
+                                Amazon Verified Purchase, Feb 2023
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h1>Good One</h1>
+                            <p class="paragraph">
+                                “I'm so glad That I've got what I expect... It's been a month long that i use the
+                                products but i find very good.. I hope i can use the mattress for more than 10 years.
+                                Thank you for deliver in time... Also i recommend my friend to use this products....”
+                            <h3>Reisangmi hungshok</h3>
+                            </p>
+                            <div class="verified">
+                                Amazon Verified Purchase, Feb 2023
+                            </div>
+                        </div>
+                        <div class="review">
+                            <h1>Good One</h1>
+                            <p class="paragraph">
+                                “I'm so glad That I've got what I expect... It's been a month long that i use the
+                                products but i find very good.. I hope i can use the mattress for more than 10 years.
+                                Thank you for deliver in time... Also i recommend my friend to use this products....”
+                            <h3>Reisangmi hungshok</h3>
+                            </p>
+                            <div class="verified">
+                                Amazon Verified Purchase, Feb 2023
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============Featured Products SECTION END ==================== -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="main-heading">
+                    <h2>Recently Viewed</h2>
+                </div>
+                <div class="hot-deal-second-box">
+                    <div class="product-wapper">
+                        <div class="owl-carousel owl-theme">
+                            <div class="product">
+                                <a href=""><img class="img-fluid w-100" src="Product/image 120.png" alt=""></a>
+                                <div class="product-details">
+                                    <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam</p>
+                                    <p class="product-dicription">Sleep away your back problems. It’s affordable and
+                                        offers excellent spine-care. </p>
+                                    <p class="product-price"><span>Now </span>@ ₹10,000.00</p>
+                                    <p class="price-offer"><span>₹12,302.00</span>(10% Off)</p>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="product">
+                                <a href=""><img class="img-fluid w-100" src="Product/image 119.png" alt=""></a>
+                                <div class="product-details">
+                                    <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam</p>
+                                    <p class="product-dicription">Sleep away your back problems. It’s affordable and
+                                        offers excellent spine-care. </p>
+                                    <p class="product-price"><span>Now </span>@ ₹10,000.00</p>
+                                    <p class="price-offer"><span>₹12,302.00</span>(10% Off)</p>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="product">
+                                <a href=""><img class="img-fluid w-100" src="Product/image 111.png" alt=""></a>
+                                <div class="product-details">
+                                    <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam</p>
+                                    <p class="product-dicription">Sleep away your back problems. It’s affordable and
+                                        offers excellent spine-care. </p>
+                                    <p class="product-price"><span>Now </span>@ ₹10,000.00</p>
+                                    <p class="price-offer"><span>₹12,302.00</span>(10% Off)</p>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="product">
+                                <a href=""><img class="img-fluid w-100" src="Product/image 111.png" alt=""></a>
+                                <div class="product-details">
+                                    <p class="product-tittle">Spine Pro – Rebonded Foam With PU Foam</p>
+                                    <p class="product-dicription">Sleep away your back problems. It’s affordable and
+                                        offers excellent spine-care. </p>
+                                    <p class="product-price"><span>Now </span>@ ₹10,000.00</p>
+                                    <p class="price-offer"><span>₹12,302.00</span>(10% Off)</p>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============Featured Products SECTION END ==================== -->
+    <section class="BG-light-blue">
+        <div class="container footer">
+            <div class="row row-gap-2">
+                <div class="col-12 col-md-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="Logo/Repose-logov1 1.png" alt="" class="img-fluid"></a>
+                    </div>
+                    <p class="mt-md-5 m-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium esse
+                        non
+                        reiciendis dolor libero tenetur? Est laborum quod consequatur molestiae asperiores, incidunt
+                        aliquam eum similique.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="menu-tittle Mob-p-0">
+                        <h2 class="text-uppercase fs-2 fw-bold">Categories</h2>
+                        <a href="#">Mattress</a>
+                        <a href="#">Pillows</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Furniture</a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="menu-tittle Mob-p-0">
+                        <h2 class="text-uppercase fs-2 fw-bold">Useful links</h2>
+                        <a href="#">Mattress</a>
+                        <a href="#">Pillows</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Furniture</a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 d-none d-md-block">
+                    <div class="menu-tittle">
+                        <h2 class="text-uppercase fs-2 fw-bold">Contact us</h2>
+                        <a href="#">+91 1234567890</a>
+                        <a href="#">example@gmail.com</a>
+                        <a href="#">address</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =====BOOTSTRAP JS CDN =============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ==========JQUERY CDN ============== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- ==========OWL carousel CDN ================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- ================App js Link ================= -->
+    <script src="app.js"></script>
+
+    <script>
+        const mainImage = document.getElementById('mainImage');
+        let scale = 1;
+
+        mainImage.addEventListener('mousemove', zoomIn);
+        mainImage.addEventListener('mouseleave', zoomOut);
+
+        function zoomIn(event) {
+            const containerWidth = mainImage.offsetWidth;
+            const containerHeight = mainImage.offsetHeight;
+            const offsetX = event.offsetX;
+            const offsetY = event.offsetY;
+
+            const x = offsetX / containerWidth * 100;
+            const y = offsetY / containerHeight * 100;
+
+            mainImage.style.transformOrigin = `${x}% ${y}%`;
+
+            if (scale < 1.5) { // Maximum zoom level
+                scale += 0.05; // Increase or decrease the zoom level as desired
+                mainImage.style.transform = `scale(${scale})`;
+            }
+        }
+
+        function zoomOut() {
+            scale = 1;
+            mainImage.style.transform = `scale(${scale})`;
+        }
+
+
+
+        const mainVideo = document.getElementById("mainVideo");
+        const popVideo = document.getElementById("popVideo");
+
+        popVideo.addEventListener('click', function () {
+            mainVideo.style.display = "block";
+            mainImage.style.display = "none"
+        })
+
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     var mainImage = document.getElementById('mainImage');
+
+        //     mainImage.addEventListener('click', function () {
+        //         mainImage.classList.toggle('zoomed');
+        //         if (mainImage.classList.contains('zoomed')) {
+        //             mainImage.style.cursor = 'zoom-out';
+        //         } else {
+        //             mainImage.style.cursor = 'zoom-in';
+        //         }
+        //     });
+        // });
+    </script>
+
+</body>
+
+</html>

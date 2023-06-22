@@ -1,0 +1,293 @@
+@media (max-width:767px) {
+    
+    html{
+        font-size: 55% !important;
+    }
+    
+    .navbar-nav{
+        padding: 1rem 1.5rem !important;
+    }
+
+    .navbar .navbar-collapse .navButton{
+      padding: 1.5rem 1rem;
+    }
+
+    .Search-box{
+      width: 100%;
+    }
+
+    .Product-icon-box{
+      gap: 5rem;
+    }
+    
+    .Mob-p-0{
+        padding: 0 !important;
+    }
+
+    .Product-icon-box{
+        padding: 1.5rem 0 1rem 1.5rem;
+    }
+
+    .MobileslideImage{
+        display: block !important;
+      } 
+
+    .DesktopImage{
+        display: none !important;
+      }
+
+      section{
+        padding: 2rem 1.5rem;
+      }
+
+      .Mt-10{
+        margin-top: 12rem;
+      }
+
+      .Support-box-wapper{
+        justify-content: center;
+      }
+
+      .flex-column-mobile{
+        flex-direction: column;
+      }
+
+      .home-categories .categories-box p{
+        font-size: 1.4rem;
+      }
+
+      .hot-deal-first-box{
+        align-items: inherit;
+      }
+
+      .ForDestop{
+        display: none !important;
+      }
+
+      .ForMobile{
+        display: flex !important;
+      }
+      .MobileProduct{
+        display: block !important;
+      }
+      .add-text p{
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+      .add-text a{
+        line-height: 0;
+      }
+      .add-text img{
+        width: 10%;
+      }
+
+      .hot-deal-price{
+        font-size: 1.6rem;
+      }
+
+      .hot-deal-price span{
+        font-size: 2.2rem;
+      }
+      .price-offer span{
+        font-size: 1.6rem;
+      }
+
+      .quiz-wapper h2{
+        font-size: 2.5rem;
+      }
+      .quiz-wapper .quiz-box a{
+        font-style: 2rem;
+      }
+
+      .Quiz-popUp-wapper{
+        overflow-y: scroll;
+        width: 90vw;
+        height: 80vh;
+        padding: 3rem;
+      }
+
+      .carousel .removePoPup{
+        top: -5rem;
+        right: 0;
+      }
+
+      .Quiz-popUp-wapper .single-quiz-slide{
+        height: 100%;
+      }
+
+      .H-auto{
+        height: auto !important;
+      }
+
+      .Quiz-popUp-wapper .single-quiz:last-child{
+        padding-bottom: 2rem !important;
+      }
+      
+      #leftArrow{
+        position: fixed !important;
+        left: 3rem !important;
+      }
+      #rightArrow{
+        position: fixed !important;
+        right: 3rem !important;
+      }
+
+      .quiz-nav-dots{
+        display: none !important;
+      }
+
+      .ProductList{
+        flex-direction: column-reverse;
+      }
+
+      .button-wapper{
+        display: flex;
+        row-gap:2rem;
+        flex-direction: column;
+      }
+
+      .combo-deal-wapper{
+        padding: 2rem 1rem !important;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .combo-deal-wapper .combo-product{
+        gap: 1.5rem;
+      }
+
+      .product-tittle{
+        font-size: 1.6rem;
+      }
+
+      .categories-box img{
+        width: 70% !important;
+        height: 70% !important;
+      }
+
+      .combo-product i{
+        font-size: 2rem;
+      }
+
+      .product-sidebar{
+        padding: 0 !important;
+      }
+      
+      .compare-product .col-12{
+        padding-top: 1.5rem;
+      }
+      .order-summary-bar{
+        display: block;
+      }
+
+      .select-product{
+        width: 90vw;
+        border: .5rem solid var(main-color);
+        height: auto;
+      }
+      
+      .login-type{
+        width: 90vw;
+        height: auto;
+      }
+      
+      .login-type .Login-method{
+        flex-direction: column;
+      }
+
+      .login-type .Login-method .login-button{
+        width: 100%;
+        font-size: 1.6rem;
+      }
+
+      .login-type .Login-method .or{
+        width: 100%;
+      }
+
+      .input-wapper{
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      .user-details{
+        width: 90vw;
+        height: 95vh;
+      }
+
+      .footer .logo{
+        width: 65%;
+      }
+
+      .menu-tittle{
+        gap: 1rem !important;
+      }
+
+      .FullSize{
+        max-width: 100% !important;
+        width: 100%;
+      } 
+
+      .compare-product{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+      }
+
+      .compare-product .compare-reson{
+        width: 100%;
+      }
+
+      .review-wapper .review-inner .review{
+        min-width: 30rem;
+        padding: 2.5rem 1.5rem;
+      }
+
+      .Home-strpie{
+        text-transform: uppercase;
+        color: var(--Balck-color);
+        letter-spacing: 0.3em;
+        text-align: center;
+      }
+
+      .Support-box-wapper{
+        gap: 5%;
+        row-gap: 2rem;
+      }
+      
+      .Support-box-wapper .Support-box{
+        flex: 1 1 47.5%;
+        max-width: 47.5%;
+      }
+
+      .Support-box-wapper .Support-box p{
+        font-size: 2rem;
+      }
+
+      .Search-box-left{
+        padding: 0 1.5rem;
+      }
+
+      .Blog-wapper .SingleBlog{
+        max-width: 100% !important;
+      }
+
+      .Sidebar{
+        padding-top: 2rem;
+      }
+
+      .product-review-wapper .rating-box-wapper{
+        flex-direction: column;
+      }
+
+      .WriteReview{
+        width: 80vw;
+        height: 80vh;
+      }
+      
+}
+
+@media (max-width:390px) {
+  .check{
+    top: 1.7rem;
+  }
+}
